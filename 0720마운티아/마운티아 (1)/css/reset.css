@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: '맑은고딕';
+    font-size: 12px;
+    color: #555;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+img {
+    border: 0px
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* a:link{} 기본 a태그의 스타일 선언
+a:hover{} 마우스를 버튼위에 올라갔을때
+a:active{} 마우스를 누르는 순간일때
+a:visited{} 버튼을 한번정도 클릭을 한 a태그 */

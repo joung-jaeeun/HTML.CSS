@@ -1,0 +1,420 @@
+#wrap {
+    width: 100%;
+}
+
+#header {
+    width: 100%;
+    height: 165px;
+    
+}
+
+/* 상단 */
+#header_in {
+    margin: 0 auto;
+    width: 1000px;
+    height: 115px;
+   
+}
+
+#header_in .logo {
+    float: left;
+    padding: 55px 0 0 10px;
+    box-sizing: border-box;
+    width: 300px;
+    height: 115px;
+    
+}
+
+#header_in .group {
+    float: right;
+    width: 600px;
+    height: 115px;
+    padding-top: 50px;
+    box-sizing: border-box;
+    
+    position: relative;
+}
+
+#header_in .q_mn {
+    float: left;
+}
+
+#header_in .q_mn>li {
+    float: left;
+    margin-right: 20px;
+}
+
+#header_in .q_mn a {
+    font-size: 14px;
+}
+
+#header_in .input {
+    float: left;
+    margin-top: -4px;
+    width: 250px;
+    height: 26px;
+    background-color: #ccc;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#header_in .input span {
+    float: left;
+    color: #fff;
+    line-height: 26px;
+}
+
+#header_in .input a {
+    float: right;
+    margin: 2px 2px 0 0;
+}
+
+#header_in .info_mn {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+
+#header_in .info_mn>li {
+    float: left;
+    border-right: 1px solid #555;
+    margin-right: 5px;
+    padding-right: 5px;
+    line-height: 10px;
+}
+
+#header_in .info_mn>li:last-child {
+    border-right: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+
+#header_in .info_mn a {
+    font-size: 10px;
+}
+
+#nav {
+    width: 100%;
+    height: 50px;
+    
+    /* background-image: url(../images/nav_area.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0; */
+    background: url(../images/nav_area.jpg) no-repeat 0 0;
+}
+
+#nav ul {
+    margin: 0 auto;
+    width: 1005px;
+}
+
+#nav ul li {
+    float: left;
+}
+
+
+/* 메인이미지 */
+#main_img {
+    width: 100%;
+    height: 460px;
+    background: url(../images/main_img.jpg) no-repeat 50% 0;
+}
+
+/* 내용 */
+#contents {
+    width: 100%;
+    
+    padding-top: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+#item {
+    margin: 0 auto;
+    width: 1000px;
+    height: 260px;
+    
+}
+
+#item .item_h {
+    float: left;
+    width: 170px;
+    height: 260px;
+    
+}
+
+#item .item_h h3 {
+    padding: 15px 0;
+    font-size: 20px;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+}
+
+#item .item_h ul {
+    margin-top: 25px;
+}
+
+#item .item_h ul li {
+    margin-bottom: 6px;
+}
+
+#item .item_h ul a {
+    font-size: 15px;
+}
+
+#item .item_h ul a:hover {
+    color: orange;
+    text-decoration: underline;
+    transition: 0.7s;
+}
+
+#item .item_b {
+    float: right;
+    width: 800px;
+    height: 260px;
+    
+}
+
+#item .item_b ul {
+    font-size: 0;
+}
+
+#item .item_b li {
+    box-sizing: border-box;
+    margin-right: 13.3px;
+    display: inline-block;
+    width: 190px;
+    height: 260px;
+    border: 1px solid #ccc;
+   
+}
+
+#item .item_b li:last-child {
+    margin-right: 0;
+}
+
+#item .item_b li img {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+#item .item_b li h5 {
+    margin: 10px 0 0 10px;
+    font-size: 16px;
+}
+
+#item .item_b li span {
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+/* #item .item_b li:nth-child(1) {
+    background-color: violet;
+}
+
+#item .item_b li:nth-child(2) {
+    background-color: yellow;
+}
+
+#item .item_b li:nth-child(3) {
+    background-color: tomato;
+}
+
+#item .item_b li:nth-child(4) {
+    background-color: turquoise;
+} */
+
+#shop {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    height: 275px;
+    
+}
+
+#shop a {
+    float: left;
+    margin-right: 18.5px;
+}
+
+#shop a:last-child {
+    margin-right: 0
+}
+
+#movie {
+    margin-top: 40px;
+    padding-top: 200px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 295px;
+    background: url(../images/con03.png) no-repeat 50% 0;
+}
+
+#movie .btn {
+    margin: 0 auto;
+    display: block;
+    width: 170px;
+    height: 50px;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 50px;
+}
+
+#week {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    height: 260px;
+    
+}
+
+#week .week_h h3 {
+    padding: 15px 0;
+    font-size: 20px;
+    border-top: 2px solid #000; 
+    border-bottom: 2px solid #000;
+}
+
+#week .week_h ul {
+margin-top: 25px;
+}
+
+#week .week_li {
+    margin-bottom: 6px;
+}
+
+#week .week_h a {
+    font-size: 16px;
+}
+#week .week_h a:hover{
+    text-decoration: underline;
+    color: orange;
+}
+
+#week .week_h {
+    float: left;
+    width: 170px;
+    height: 260px;
+   
+}
+
+#week .week_b {
+    float: right;
+    width: 800px;
+    height: 260px;
+  
+}
+
+
+
+#week .week_b li {
+    float: left;
+    margin-right: 13.3px;
+    width: 190px;
+    height: 260px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+#week .week_b li:last-child {
+    margin-right: 0px;
+}
+
+#week .week_b img {
+    width: 100%;
+    border: 1px solid #000;
+}
+
+#week .week_b h4 {
+    font-size: 15px;
+    margin: 12px 0 0 8px;
+}
+
+#week .week_b span {
+    font-size: 13px;
+    margin-left: 8px;
+}
+
+#banner {
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 1000px;
+    height: 395px;
+   
+}
+
+#banner .group {
+    float: left;
+    width: 492px;
+}
+
+#banner .group img:last-child {
+    margin-top: 15px;
+
+}
+
+
+#banner>img {
+    float: right;
+}
+
+/* 하단 */
+#footer {
+    width: 100%;
+    height: 600px;
+    background-color: rgb(195, 228, 144);
+}
+
+#info {
+    width: 100%;
+    height: 160px;
+    background: url(../images/footer_top_bg.jpg) repeat-x 0 0;
+}
+
+#info .info_top {
+    margin: 0 auto;
+    width: 1000px;
+    height: 110px;
+}
+
+#info .info_top>img {
+    float: left;
+}
+
+
+#info .info_bottom {
+    color: #fff;
+    margin: 0 auto;
+    width: 1000px;
+    height: 50px;
+}
+
+#info .info_bottom .title {
+    float: left;
+    margin-right: 30px;
+    line-height: 50px;
+}
+#info .info_bottom .txt {
+    float: left;
+    line-height: 50px;
+}
+#info .info_bottom .date {
+    float: right;
+    line-height: 50px;
+}
+
+
+
+#all_menu {
+    width: 100%;
+    height: 295px;
+    background-color: yellow;
+}
+
+#addres {
+    width: 100%;
+    height: 140px;
+    background-color: yellowgreen;
+}
